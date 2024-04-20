@@ -81,8 +81,8 @@ if st.button("Lung Cancer Test Result"):
     )
 
     if lung_cancer_report[0] == 0:
-        lung_cancer_result = "Hurrah! You have no Lung Cancer."
+        lung_cancer_result = "You have no Lung Cancer."
         st.success(lung_cancer_result)
     else:
-        lung_cancer_result = "Sorry! You have Lung Cancer."
+        lung_cancer_result = "You have Lung Cancer."
         st.error(lung_cancer_result)
